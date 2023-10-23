@@ -81,10 +81,11 @@ li {
 }
 .header-content-wrapper {
   text-align: center;
-  color: var(--color-white);
 }
 .header-title {
   font-size: 4.8rem;
+  color: var(--color-white);
+  -webkit-text-stroke: 0.5px var(--color-dark);
 }
 .header-form {
   background-color: var(--color-white);
