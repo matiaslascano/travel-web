@@ -181,6 +181,7 @@ li {
 
 .trending-title {
   font-size: 4rem;
+  font-weight: 800;
 }
 .trending-wrapper {
   display: grid;
@@ -263,4 +264,91 @@ li {
   height: 1.5rem;
   color: var(--color-primary);
   margin-right: 1rem;
+}
+
+/* BEST SELLERS */
+.sellers {
+  margin-top: 10rem;
+}
+.best-sellers-main-title {
+  font-weight: 800;
+  font-size: 4rem;
+}
+.sellers-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+  grid-gap: 4rem;
+}
+.seller-item {
+  position: relative;
+  margin-top: 1.5rem;
+}
+.seller-item-img {
+  width: 100%;
+  height: 22rem;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+.discount {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 0.4rem 0.8rem;
+  border-radius: 10rem;
+  font-size: 1.2rem;
+  text-align: center;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+.seller-item-text {
+  width: 100%;
+  padding: 2rem;
+  position: absolute;
+  left: 0;
+  top: 15rem;
+  color: var(--color-white-2);
+  display: flex;
+  justify-content: space-between;
+}
+.seller-button {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 0.8rem 1.3rem;
+  justify-self: center;
+  border-radius: 1rem;
+}
+
+/* TOURS */
+
+.tour {
+  margin-top: 30rem;
+  width: 100%;
+  height: 80vh;
+  background-image: linear-gradient(rgba(0, 11, 44, 0.6), rgba(0, 11, 44, 0.6)),
+    url(/Images/lake.webp);
+  background-size: cover;
+}
+.tour-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tour-wrapper {
+  text-align: center;
+  color: var(--color-white);
+  margin-bottom: -20rem;
+}
+.tour-title {
+  margin-bottom: 3rem;
+  font-size: 3.2rem;
+}
+.tour-wrapper > video {
+  max-width: 70rem;
+  border: 1px solid var(--color-white);
+  border-radius: 2rem;
+  box-shadow: 0.5rem 0.5rem 1rem #7f7f7f49;
 }
