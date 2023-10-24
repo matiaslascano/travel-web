@@ -382,3 +382,48 @@ li {
     box-shadow: 0.5rem 0.5rem 1rem #7f7f7f49;
   }
 }
+
+/* GUIDES */
+.guides {
+  margin-top: 13rem;
+}
+
+.guide-main-title {
+  font-weight: 800;
+  font-size: 4rem;
+}
+.guide-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+  grid-gap: 3rem;
+}
+.guide-card {
+  margin-top: 2rem;
+  background-color: var(--color-white-2);
+  box-shadow: 0.5rem 0.5rem 1rem #7f7f7f49;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.guide-img {
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+}
+.guide-body {
+  padding: 1.4rem;
+}
+.guide-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.guide-designation {
+  font-size: 1.2rem;
+  color: var(--color-primary);
+}
+.guide-text {
+  margin-top: 1.2rem;
+  font-size: 1.4rem;
+  color: var(--color-text);
+}
