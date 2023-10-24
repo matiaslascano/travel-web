@@ -352,3 +352,33 @@ li {
   border-radius: 2rem;
   box-shadow: 0.5rem 0.5rem 1rem #7f7f7f49;
 }
+
+@media screen and (max-width: 768px) {
+  .tour {
+    margin-top: 30rem;
+    width: 100%;
+    height: 40vh;
+    background-image: linear-gradient(
+        rgba(0, 11, 44, 0.6),
+        rgba(0, 11, 44, 0.6)
+      ),
+      url(/Images/lake.webp);
+    background-size: cover;
+  }
+
+  .tour-wrapper {
+    text-align: center;
+    color: var(--color-white);
+    margin-bottom: -10rem;
+  }
+  .tour-title {
+    margin-bottom: 3rem;
+    font-size: 3.2rem;
+  }
+  .tour-wrapper > video {
+    max-width: 30rem;
+    border: 1px solid var(--color-white);
+    border-radius: 2rem;
+    box-shadow: 0.5rem 0.5rem 1rem #7f7f7f49;
+  }
+}
