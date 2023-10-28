@@ -427,3 +427,63 @@ li {
   font-size: 1.4rem;
   color: var(--color-text);
 }
+
+/* CLIENTS */
+.client {
+  margin-top: 13rem;
+}
+.client-main-title {
+  font-weight: 800;
+  font-size: 4rem;
+}
+.client-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+  grid-gap: 3rem;
+}
+.client-card {
+  margin-top: 2rem;
+  background-color: var(--color-white-2);
+  box-shadow: 0.5rem 0.5rem 1rem #7f7f7f49;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+.client-text {
+  margin-top: 1.2rem;
+  font-size: 1.4rem;
+  color: var(--color-text);
+}
+.client-details {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.client-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.client-name {
+  margin-left: 1rem;
+}
+.client-title {
+  font-size: 1.4rem;
+}
+.client-designation {
+  font-size: 1.2rem;
+  color: var(--color-primary);
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 13rem;
+  width: 100%;
+  background-color: var(--color-white-2);
+}
+.footer-text {
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center;
+}
